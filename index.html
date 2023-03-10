@@ -9,7 +9,26 @@
 </head>
 <body>
     <header class="header"> <!--Requisito-->
-
+        <div class="container header__container center">
+            <div>
+                <button class="header__button">a</button>
+                <p class="font-mono text-h1">Aprende programando</p>
+            </div>
+            <nav class="header__nav">
+                <ul class="no-list header__list">
+                    <li>
+                        <a href="">
+                            Descripción
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            About me
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <div class="general-container">
         <main class="min-h-screen main-background center-content p-normal">
@@ -18,29 +37,31 @@
                     Aprende programando
                 </h1>
                 <p class="text-lg text-center">
-                    Un curso de <a href="https://junior.org.ar/">junior achievement</a>... 
+                    Un curso de <a href="https://junior.org.ar/" target="_blank">junior achievement</a>... 
                 </p>
             </div>
         </main>
         <section class="min-h-screen p-normal center-content content-in-column">
-            <h2 class="text-h2">
-                ¿De qué se trata el curso Aprende Programando?
-            </h2>
             <div class="container grid-2-tracks">
-                <p class="text-lg"> <!--Requisito-->
-            
-                </p>
-                <div>
-                    <img src="/img/static website.png" alt="Static website for Undraw" loading="lazy" class="responsive-img"> <!--Requisito-->
+                <div class="content-in-column center-content">
+                    <h2 class="text-h2">
+                        ¿De qué se trata el curso Aprende Programando?
+                    </h2>
+                    <p class="text-lg"> <!--Requisito-->
+                        En un mundo digital, es clave conocer cómo funcionan las cosas que nos rodean: en este curso vas a aprender los principios básicos de la programación de una manera ágil, dinámica y entretenida, y así desarrollar habilidades que te van a servir para tu presente y tu futuro.
+                    </p>
+                </div>
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/kwI-Ax71EzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
         <section class="min-h-screen p-normal center-content content-in-column">
-            <h2 class="text-h2">
-                ¿Acerca de mí?
-            </h2>
             <div class="container grid-2-tracks">
                 <div class="center-content content-in-column">
+                    <h2 class="text-h2">
+                        ¿Acerca de mí?
+                    </h2>
                     <p class="text-lg"> <!--Requisito-->
                         Hola, soy Juan María Mancedo, un desarrollador frontend. Soy de Argentina, tengo 18 años. Además de este oficio me gusta el modelaje, el mundo fitness, la música, etc.
                     </p>
@@ -76,15 +97,46 @@
                         </ul>
                     </div>
                 </div>
-                <div>
-                    <img src="/img/Juan María Mancedo.png" alt="Foto del rostro de Juan María Mancedo" loading="lazy" class="responsive-img"> <!--Requisito-->
+                <div class="center-content">
+                    <div class="basis-img">
+                        <img src="/img/perfil.png" alt="Foto del rostro de Juan María Mancedo" loading="lazy" class="responsive-img"> <!--Requisito-->
+                    </div>
                 </div>
             </div>
         </section>
-        <form action=""></form>
-        <iframe src="" frameborder="0"></iframe> <!--Requisito desde youtube -->
-        <footer> <!--Requisito-->
-    
+        <footer class="content-in-column"> <!--Requisito-->
+            <div class="container grid-3-tracks">
+                <article class="content-in-column">
+                    <h3 class="text-h3 text-center">Links</h3>
+                    <ul class="no-list text-center text-lg">
+                        <li>
+                            <a href="">+54 3794870926</a>
+                        </li>
+                        <li>
+                            <a href="">juanmaninc@gmail.com</a>
+                        </li>
+                    </ul>
+                </article>
+                <article class="content-in-column">
+                    <h3 class="text-h3 text-center">Social media</h3>
+                    <ul class="no-list text-center text-lg">
+                        <li>
+                            <a href="">Instagram</a>
+                        </li>
+                    </ul>
+                </article>
+                <article class="content-in-column">
+                    <h3 class="text-h3 text-center">Address</h3>
+                    <address class="text-lg">       
+                        1234 Main St.
+                        <br>       
+                        Anytown, USA 12345
+                    </address>
+                </article>
+            </div>
+            <div class="p-normal">
+                <p class="text-lg">Página hecha por <a href="">@juan_mancedo</a>. </p>
+            </div>
         </footer>
     </div>
 </body>
