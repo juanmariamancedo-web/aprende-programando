@@ -4,39 +4,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css"> <!--Requisito-->
     <title>Document</title> <!-- Requisito -->
+
 </head>
 <body>
-    <header class="header"> <!--Requisito-->
-        <div class="container header__container">
-            <div class="header__subcontainer">
-                <div class="header__container-brand">
-                    <p class="font-mono text-h1">Aprende programando</p>
-                </div>
-                <div class="header__container-button">
-                    <button class="header__button" id="headerButton">a</button>
-                </div>
-            </div>
-            <nav class="header__nav" id="headerNav">
-                <ul class="no-list header__list">
-                    <li>
-                        <a href="">
-                            Descripción
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            About me
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-normal" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="./">Perrolandia</a>
+          <button class="navbar-toggler" data-bs-theme="dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./#aboutme">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./#contacme">Contact me</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </header>
-    <div class="general-container">
+        </nav>
+        </header>
+      
         <main class="min-h-screen main-background center-content p-normal">
-            <div class="container">
+            <div class="container text-light">
                 <h1 class="text-h1"> <!--Requisito-->
                     Aprende programando
                 </h1>
@@ -45,8 +44,8 @@
                 </p>
             </div>
         </main>
-        <section class="min-h-screen p-normal center-content content-in-column">
-            <div class="container grid-2-tracks">
+        <section class="min-h-screen p-normal center-content content-in-column text-light">
+            <div class="container grid-2-tracks shadow-xl rounded-2xl p-normal">
                 <div class="content-in-column center-content">
                     <h2 class="text-h2">
                         ¿De qué se trata el curso Aprende Programando?
@@ -60,8 +59,8 @@
                 </div>
             </div>
         </section>
-        <section class="min-h-screen p-normal center-content content-in-column">
-            <div class="container grid-2-tracks">
+        <section class="min-h-screen p-normal center-content content-in-column text-light">
+            <div class="container grid-2-tracks shadow-xl rounded-2xl p-normal">
                 <div class="center-content content-in-column">
                     <h2 class="text-h2">
                         ¿Acerca de mí?
@@ -108,7 +107,7 @@
                 </div>
             </div>
         </section>
-        <footer class="content-in-column"> <!--Requisito-->
+        <footer class="content-in-column bg-dark text-light p-normal"> <!--Requisito-->
             <div class="container grid-3-tracks">
                 <article class="content-in-column">
                     <h3 class="text-h3 text-center">Links</h3>
@@ -138,11 +137,8 @@
                     </address>
                 </article>
             </div>
-            <div class="p-normal">
-                <p class="text-lg">Página hecha por <a href="">@juan_mancedo</a>. </p>
-            </div>
+            <p class="text-lg">Página hecha por <a href="">@juan_mancedo</a>. </p>
         </footer>
-    </div>
-    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
