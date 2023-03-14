@@ -9,12 +9,16 @@
 </head>
 <body>
     <header class="header"> <!--Requisito-->
-        <div class="container header__container center">
-            <div>
-                <button class="header__button">a</button>
-                <p class="font-mono text-h1">Aprende programando</p>
+        <div class="container header__container">
+            <div class="header__subcontainer">
+                <div class="header__container-brand">
+                    <p class="font-mono text-h1">Aprende programando</p>
+                </div>
+                <div class="header__container-button">
+                    <button class="header__button" id="headerButton">a</button>
+                </div>
             </div>
-            <nav class="header__nav">
+            <nav class="header__nav" id="headerNav">
                 <ul class="no-list header__list">
                     <li>
                         <a href="">
@@ -139,5 +143,6 @@
             </div>
         </footer>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>

@@ -12,6 +12,41 @@
     display: none;
 }
 
+
+.container {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 640px){
+    .container {
+        max-width: 640px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }    
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }    
+}
+
+@media screen and (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }    
+}
+
 .general-container{
     padding-top: 56px;
 }
@@ -29,6 +64,33 @@
     width: 100%;
     min-height: 56px;
     position: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header__container{
+    width: 100%;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__container-button{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 @media screen and (min-width: 640px) {
@@ -43,22 +105,29 @@
 
 @media screen and (min-width: 640px) {
     .header__nav{
-        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 }
 
-.header__container{
+
+.header__container-brand{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 0.75rem; /* 12px */
-}
-
-@media screen and (min-width: 640px){
-    .header__container{
-        flex-direction: row;
-    }
 }
 
 .header__list{
@@ -153,41 +222,6 @@
 .text-h3{
     font-size: 1.25rem; /* 20px */
     line-height: 1.75rem; /* 28px */
-}
-
-.container {
-    max-width: 100%;
-    padding: 0.75rem; /* 12px */
-}
-
-@media screen and (min-width: 640px){
-    .container {
-        max-width: 640px;
-    }
-}
-
-@media screen and (min-width: 768px){
-    .container {
-        max-width: 768px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .container {
-        max-width: 1024px;
-    }    
-}
-
-@media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-    }    
-}
-
-@media screen and (min-width: 1536px) {
-    .container {
-        max-width: 1536px;
-    }    
 }
 
 .center{
