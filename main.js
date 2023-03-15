@@ -1,16 +1,17 @@
-const headerButton = document.getElementById("headerButton");
-const headerNav = document.getElementById("headerNav");
+document.querySelectorAll(`a[href^="#"]`).forEach(anchor =>{
+    console.log(anchor)
+    anchor.addEventListener("click", (e)=>{
+        e.preventDefault();
 
-let navActive = false;
+        const target = document.querySelector(this.getAttribute("href"));
 
-headerButton.addEventListener("click", (e)=>{
-    if(!navActive){
-        navActive = true;
-        headerNav.classList.add("header__nav-active")
-        headerButton.innerText = "H"
-    }else{
-        navActive = false;
-        headerNav.classList.remove("header__nav-active")
-        headerButton.innerText = "X"
-    }
+        const topOffset = target.offsetTop + 64;
+
+        window.scrollTo({
+            top: topOffset,
+            behavior: "smooth"
+        })
+
+        console.log("Hay click")
+    })
 })
