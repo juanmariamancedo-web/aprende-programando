@@ -55,6 +55,10 @@ a{
     color: white;
 }
 
+.general-container{
+    padding-top: 64px;
+}
+
 .font-mono{
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }

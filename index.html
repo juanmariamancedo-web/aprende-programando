@@ -3,9 +3,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="main.css"> <!--Requisito-->
+    <link rel="stylesheet" href="./main.css"> <!--Requisito-->
     <title>Aprende programando</title> <!-- Requisito -->
     <meta name="description" content="Aquí podras ver de que se trata un curso de Junior Achievement">
 </head>
@@ -13,133 +12,135 @@
     <header class="fixed-top">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-normal" data-bs-theme="dark">
         <div class="container">
-          <a class="navbar-brand" href="./">Aprende Programando</a>
+          <a class="navbar-brand" href="/#">Aprende Programando</a>
           <button class="navbar-toggler" data-bs-theme="dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="/#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./#info">Info</a>
+                <a class="nav-link" href="/#info">Info</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./#aboutme">About me</a>
+                <a class="nav-link" href="/#aboutme">About me</a>
               </li>
             </ul>
           </div>
         </div>
         </nav>
         </header>
-      
-        <main class="min-h-screen main-background center-content p-normal">
-            <div class="container text-light">
-                <h1 class="text-h1"> <!--Requisito-->
-                    Aprende programando
-                </h1>
-                <p class="text-lg text-center">
-                    Un curso de <a href="https://junior.org.ar/" target="_blank">junior achievement</a>... 
-                </p>
-            </div>
-        </main>
-        <section class="min-h-screen p-normal center-content content-in-column text-light" id="info">
-            <div class="container grid-2-tracks shadow-xl rounded-2xl p-normal">
-                <div class="content-in-column center-content">
-                    <h2 class="text-h2">
-                        ¿De qué se trata el curso Aprende Programando?
-                    </h2>
-                    <p class="text-lg"> <!--Requisito-->
-                        En un mundo digital, es clave conocer cómo funcionan las cosas que nos rodean: en este curso vas a aprender los principios básicos de la programación de una manera ágil, dinámica y entretenida, y así desarrollar habilidades que te van a servir para tu presente y tu futuro.
+        <div class="general-container">
+
+            <main class="min-h-screen main-background center-content p-normal">
+                <div class="container text-light">
+                    <h1 class="text-h1"> <!--Requisito-->
+                        Aprende programando
+                    </h1>
+                    <p class="text-lg text-center">
+                        Un curso de <a href="https://junior.org.ar/" target="_blank">junior achievement</a>... 
                     </p>
                 </div>
-                <div class="iframe-container">
-                    <iframe src="https://www.youtube.com/embed/kwI-Ax71EzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-            </div>
-        </section>
-        <section class="min-h-screen p-normal center-content content-in-column text-light" id="aboutme">
-            <div class="container grid-2-tracks shadow-xl rounded-2xl p-normal">
-                <div class="center-content content-in-column">
-                    <h2 class="text-h2">
-                        ¿Acerca de mí?
-                    </h2>
-                    <p class="text-lg"> <!--Requisito-->
-                        Hola, soy Juan María Mancedo, un desarrollador frontend. Soy de Argentina, tengo 18 años. Además de este oficio me gusta el modelaje, el mundo fitness, la música, etc.
-                    </p>
-                    <p class="text-lg">
-                        Cuento con diversos proyectos personales en el rubro del desarrollo frontend que exponen mi capacidad, tales como:
-                        <a href="https://jmodels.netlify.app/">JModels</a>, <a href="https://perrolandia.netlify.app/">Perrolandia</a>, <a href="https://jmarkdown.netlify.app/">JMarkdown</a>, etc. Se exponen algunos proyectos en mi perfil de <a href="https://www.behance.net/juanmancedo">Behance</a>. 
-                    </p>
-                    <p class="text-lg">
-                        Aquí hay algunas tecnologías con las que he estado trabajando recientemente
-                    </p>
-                    <div class="grid-2-tracks">
-                        <ul class="content-in-column no-list text-lg">
-                            <li>
-                                Javascript (ES6+)
-                            </li>
-                            <li>
-                                React js
-                            </li>
-                            <li>
-                                Next js
-                            </li>
-                        </ul>
-                        <ul class="content-in-column no-list text-lg">
-                            <li>
-                                Astro js
-                            </li>
-                            <li>
-                                Tailwind css
-                            </li>
-                            <li>
-                                Payload cms
-                            </li>
-                        </ul>
+            </main>
+            <section class="min-h-screen p-normal center-content content-in-column text-light" id="info">
+                <div class="container grid-2-tracks shadow-xl rounded-2xl p-normal">
+                    <div class="content-in-column center-content">
+                        <h2 class="text-h2">
+                            ¿De qué se trata el curso Aprende Programando?
+                        </h2>
+                        <p class="text-lg"> <!--Requisito-->
+                            En un mundo digital, es clave conocer cómo funcionan las cosas que nos rodean: en este curso vas a aprender los principios básicos de la programación de una manera ágil, dinámica y entretenida, y así desarrollar habilidades que te van a servir para tu presente y tu futuro.
+                        </p>
+                    </div>
+                    <div class="iframe-container">
+                        <iframe src="https://www.youtube.com/embed/kwI-Ax71EzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="center-content">
-                    <div class="basis-img">
-                        <img src="/img/perfil.png" alt="Foto del rostro de Juan María Mancedo" loading="lazy" class="responsive-img"> <!--Requisito-->
+            </section>
+            <section class="min-h-screen p-normal center-content content-in-column text-light" id="aboutme">
+                <div class="container grid-2-tracks shadow-xl rounded-2xl p-normal">
+                    <div class="center-content content-in-column">
+                        <h2 class="text-h2">
+                            ¿Acerca de mí?
+                        </h2>
+                        <p class="text-lg"> <!--Requisito-->
+                            Hola, soy Juan María Mancedo, un desarrollador frontend. Soy de Argentina, tengo 18 años. Además de este oficio me gusta el modelaje, el mundo fitness, la música, etc.
+                        </p>
+                        <p class="text-lg">
+                            Cuento con diversos proyectos personales en el rubro del desarrollo frontend que exponen mi capacidad, tales como:
+                            <a href="https://jmodels.netlify.app/" data-icon="k"> JModels</a>, <a href="https://perrolandia.netlify.app/" data-icon="k"> Perrolandia</a>, <a href="https://jmarkdown.netlify.app/" data-icon="k">JMarkdown</a>, etc. Se exponen algunos proyectos en mi perfil de <a href="https://www.behance.net/juanmancedo" data-icon="f"> Behance</a>. 
+                        </p>
+                        <p class="text-lg">
+                            Aquí hay algunas tecnologías con las que he estado trabajando recientemente
+                        </p>
+                        <div class="grid-2-tracks">
+                            <ul class="content-in-column no-list text-lg">
+                                <li>
+                                    Javascript (ES6+)
+                                </li>
+                                <li>
+                                    React js
+                                </li>
+                                <li>
+                                    Next js
+                                </li>
+                            </ul>
+                            <ul class="content-in-column no-list text-lg">
+                                <li>
+                                    Astro js
+                                </li>
+                                <li>
+                                    Tailwind css
+                                </li>
+                                <li>
+                                    Payload cms
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="center-content">
+                        <div class="basis-img">
+                            <img src="/img/perfil.png" alt="Foto del rostro de Juan María Mancedo" loading="lazy" class="responsive-img"> <!--Requisito-->
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <footer class="content-in-column bg-dark text-light p-normal"> <!--Requisito-->
-            <div class="container grid-3-tracks">
-                <article class="content-in-column">
-                    <h3 class="text-h3 text-center">Links</h3>
-                    <ul class="no-list text-center text-lg">
-                        <li>
-                            <a href="" data-icon="d">+54 3794870926</a>
-                        </li>
-                        <li>
-                            <a href="" data-icon="e">juanmaninc@gmail.com</a>
-                        </li>
-                    </ul>
-                </article>
-                <article class="content-in-column">
-                    <h3 class="text-h3 text-center">Social media</h3>
-                    <ul class="no-list text-center text-lg">
-                        <li>
-                            <a href="" data-icon="a">Instagram</a>
-                        </li>
-                    </ul>
-                </article>
-                <article class="content-in-column">
-                    <h3 class="text-h3 text-center">Address</h3>
-                    <address class="text-lg">       
-                        1234 Main St.
-                        <br>       
-                        Anytown, USA 12345
-                    </address>
-                </article>
-            </div>
-            <p class="text-lg">Página hecha por <a href="" data-icon="a">@juan_mancedo</a>. </p>
-        </footer>
+            </section>
+            <footer class="content-in-column bg-dark text-light p-normal"> <!--Requisito-->
+                <div class="container grid-3-tracks">
+                    <article class="content-in-column">
+                        <h3 class="text-h3 text-center">Links</h3>
+                        <ul class="no-list text-center text-lg">
+                            <li>
+                                <a href="tel:+543794870926" data-icon="d"> +54 3794870926</a>
+                            </li>
+                            <li>
+                                <a href="mailto:juanmaninc@gmail.com" data-icon="e"> juanmaninc@gmail.com</a>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="content-in-column">
+                        <h3 class="text-h3 text-center">Social media</h3>
+                        <ul class="no-list text-center text-lg">
+                            <li>
+                                <a href="https://www.instagram.com/juan_mancedo/" data-icon="a"> Instagram</a>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="content-in-column">
+                        <h3 class="text-h3 text-center">Address</h3>
+                        <address class="text-lg">       
+                            1234 Main St.
+                            <br>       
+                            Anytown, USA 12345
+                        </address>
+                    </article>
+                </div>
+                <p class="text-lg">Página hecha por <a href="https://www.instagram.com/juan_mancedo/" data-icon="a"> @juan_mancedo</a>. </p>
+            </footer>
+        </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="main.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
